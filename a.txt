@@ -1,0 +1,18 @@
+Các bước đẩy project lên github
+git init (nó sẽ tạo ra một file trong máy tính)
+
+git add README.md (thêm file tên README.md vào git)
+
+git commit -m "first commit" (cập nhật version có đoạn ghi chú là first commit)
+
+git branch -M main ( đổi nhánh master sang nhánh main)
+
+git remote add origin https://github.com/ximvhs/test.gitgit push -u origin main (thêm vào romote có tên là orgin tên đặt cho remote repository. "origin" là tên phổ biến thường được sử dụng )
+
+git push -u origin main (Đẩy tên git hub)
+
+git config --global user.name <username>  (đặt tên)
+git config --global user.email <mailaddress> (địa chỉ gmail liên kết)
+git config credential.helper store
+
+git clone https://... (tải bản về theo đường dẫn)
